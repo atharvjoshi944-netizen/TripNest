@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Generated PDFs
+*.pdf
+test_*.pdf
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# VS Code / IDE
+.vscode/
+.idea/
