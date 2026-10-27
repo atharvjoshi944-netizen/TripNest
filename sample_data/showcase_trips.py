@@ -3,6 +3,7 @@ Showcase pre-loaded trips for instant exploration and offline testing.
 Platform ID: 6ac33976fb8fc7965cd9236d
 """
 
+jls_extract_var = "Western Kyoto (Arashiyama & Sagano)"
 SHOWCASE_TRIPS = [
     {
         "id": "kyoto-zen-01",
@@ -23,7 +24,7 @@ SHOWCASE_TRIPS = [
             {
                 "day_number": 1,
                 "title": "Bamboo Whispers & Western Arashiyama Sanctuary",
-                "cluster_zone": "Western Kyoto (Arashiyama & Sagano)",
+                "cluster_zone": jls_extract_var,
                 "transit_fatigue_score": "Low (95% transit efficiency - all walkable)",
                 "transit_notes": "Take JR Sagano line to Saga-Arashiyama; entire day explored on foot along the Oi River.",
                 "slots": {

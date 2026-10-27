@@ -37,7 +37,7 @@ from pages_views.how_it_works_view import render_how_it_works_page
 
 # Configure Page
 st.set_page_config(
-    page_title=f"{APP_NAME} | Wanderlust AI",
+    page_title=f"{APP_NAME} | TripNest",
     page_icon="✈️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -252,7 +252,7 @@ with nav_col1:
         <div style="display: flex; align-items: center; gap: 8px; padding-top: 6px;">
             <span style="font-size: 1.8rem;">✈️</span>
             <div>
-                <span style="font-family: 'Outfit'; font-size: 1.35rem; font-weight: 800; color: #F8FAFC;">Wanderlust AI</span><br/>
+                <span style="font-family: 'Outfit'; font-size: 1.35rem; font-weight: 800; color: #0F172A;">TripNest</span><br/>
                 <span class="badge-pill badge-platform" style="font-size: 0.65rem;">ID: {PLATFORM_ID}</span>
             </div>
         </div>
